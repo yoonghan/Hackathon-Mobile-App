@@ -58,7 +58,7 @@ export default class MainView extends Component {
       //self._updateListOfMessage("[[Car System Connected]]", SYSTEM);
     };
     websocket.onmessage = (e) => {
-      if(e.data === 'sei gan') {
+      if(e.data === 'eoeoeo') {
         const responseMessage = '<prosody volume="x-loud">I detected an abnormality in your heartbeat!</prosody> Are you ok?';
         self._updateListOfMessage(responseMessage, EMERGENCY);
         self.emergencyCall(responseMessage);
